@@ -1,0 +1,11 @@
+*.pyc
+*.test
+
+.envrc
+
+# Currently broken plugins
+cluster/*
+dashboards/logio/*
+dashboards/populate.rake
+rest/go/*
+shiny/*

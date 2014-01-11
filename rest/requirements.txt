@@ -1,0 +1,4 @@
+docopt
+flask-restful
+Logbook
+rethinkdb
