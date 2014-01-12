@@ -1,0 +1,9 @@
+web: telepathy --bind 0.0.0.0 --debug --frontend
+ide: [ -z "$IDE" ] || codebox run $HOME --title intuition --port 5100  && while true; do sleep 10000; done
+Doc: rqworker high --name doc --host $MSG_HOST --port $MSG_PORT
+Sneezy: rqworker high --name sneezy --host $MSG_HOST --port $MSG_PORT
+Sleepy: rqworker high --name sleepy --host $MSG_HOST --port $MSG_PORT
+Grumpy: rqworker high --name grumpy --host $MSG_HOST --port $MSG_PORT
+Happy: rqworker high --name happy --host $MSG_HOST --port $MSG_PORT
+Bashful: rqworker high --name bashful --host $MSG_HOST --port $MSG_PORT
+Dopey: rqworker high --name dopey --host $MSG_HOST --port $MSG_PORT

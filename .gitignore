@@ -5,7 +5,12 @@
 
 # Currently broken plugins
 cluster/*
-dashboards/logio/*
-dashboards/populate.rake
+dashboard/logio/*
+dashboard/populate.rake
 rest/go/*
 shiny/*
+
+build/*
+dist/*
+npm*
+*.egg-info

@@ -1,4 +1,7 @@
 docopt
+rq
+redis
+rq-dashboard
 flask-restful
 Logbook
 rethinkdb

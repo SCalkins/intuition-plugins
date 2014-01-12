@@ -1,0 +1,3 @@
+web: ./app/telepathy --debug
+Sneezy: rqworker high --name sneezy --host $MSG_HOST --port $MSG_PORT
+Grumpy: rqworker high --name grumpy --host $MSG_HOST --port $MSG_PORT
